@@ -52,14 +52,10 @@ h2 {
 
 .qr-code img,
 .qr-code canvas {
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.qr-code p {
-    font-size: 14px;
-    color: #666;
-    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: white;
+    padding: 8px;
 }
 
 .credential {
@@ -140,7 +136,9 @@ h2 {
         color: #b0b0b0;
     }
 
-    .qr-code p {
-        color: #b0b0b0;
+    .qr-code img,
+    .qr-code canvas {
+        background: #2a2a2a;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
 }

@@ -95,6 +95,16 @@ h2 {
     color: #555;
 }
 
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1a1a1a;

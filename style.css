@@ -48,6 +48,9 @@ h2 {
 
 .qr-code {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .qr-code img,
@@ -56,6 +59,7 @@ h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     background: white;
     padding: 8px;
+    display: block;
 }
 
 .credential {

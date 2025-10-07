@@ -46,20 +46,19 @@ h2 {
     margin-bottom: 30px;
 }
 
-.connect-button {
-    display: inline-block;
-    background: #007AFF;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    transition: background-color 0.2s;
+.qr-code {
+    text-align: center;
 }
 
-.connect-button:hover {
-    background: #005BB5;
+.qr-code img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.qr-code p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
 }
 
 .credential {
@@ -137,6 +136,10 @@ h2 {
     }
 
     .instructions li {
+        color: #b0b0b0;
+    }
+
+    .qr-code p {
         color: #b0b0b0;
     }
 }

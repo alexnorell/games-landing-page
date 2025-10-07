@@ -50,7 +50,8 @@ h2 {
     text-align: center;
 }
 
-.qr-code img {
+.qr-code img,
+.qr-code canvas {
     border-radius: 8px;
     margin-bottom: 10px;
 }
